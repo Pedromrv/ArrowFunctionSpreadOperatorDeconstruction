@@ -905,3 +905,100 @@ console.log();
 ```
 	
 </details>
+
+## Spread Operator Exercises
+
+[1] Copying an array with newFruitArray:
+```javascript
+let fruits = ['Apple','Orange','Banana'];
+```
+
+<details><summary>Respuesta - ¡Haz Click!</summary>
+
+```javascript
+let newFruitArray = [...fruits];
+
+console.log(newFruitArray);
+```
+
+</details>
+
+
+[2]Concatenating arrays
+```javascript
+let arr1 = ['A', 'B', 'C'];
+
+let arr2 = ['X', 'Y', 'Z'];
+```
+Output: ['A', 'B', 'C', 'X', 'Y', 'Z']
+
+<details><summary>Respuesta - ¡Haz Click!</summary>
+
+```javascript
+let result = [...arr1, ...arr2];
+
+console.log(result);  
+```
+
+</details>
+
+
+[3] Spreading elements together with an individual element (add Cherry)
+```javascript
+let fruits = ['Apple','Orange','Banana'];
+```
+Output: ['Cherry', 'Apple','Orange','Banana']
+
+<details><summary>Respuesta - ¡Haz Click!</summary>
+
+```javascript
+
+let newFruits = ['Cherry', ...names];
+
+console.log(newFruits);  
+
+```
+
+</details>
+
+
+[4] Spreading elements on function calls
+```javascript
+let fruits = ['Apple','Orange','Banana'];
+```
+Output: Fruits: Apple, Orange and Banana
+
+<details><summary>Respuesta - ¡Haz Click!</summary>
+
+```javascript
+
+let getFruits = (f1, f2, f3) => {  
+console.log(`Fruits: ${f1}, ${f2} and ${f3}`); 
+};
+
+getFruits(...fruits); 
+```
+
+</details>
+
+
+[5] Spread syntax for object literals
+```javascript
+let obj1 = { id: 101, name: 'Jhon Doe' }
+
+let obj2 = { age: 25, country: 'USA'}
+```
+Output: { "id": 101, "name": "Jhon Doe", "age": 25, "country": "USA" }
+
+<details><summary>Respuesta - ¡Haz Click!</summary>
+
+```javascript
+
+const employee = { ...obj1, ...obj2 }
+
+console.log(employee); 
+
+
+```
+
+</details>

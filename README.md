@@ -731,7 +731,7 @@ console.log();
 </details>
 
 
-### Exercise 3
+### Exercise [3]
 
 We have an object called 'user'.
 
@@ -745,7 +745,6 @@ Write the destructuring assignment that reads:
 
 
 ```javascript
-console.log("EXERCISE 3");
 
 let user = { name: "John", years: 30 };
 
@@ -763,6 +762,7 @@ console.log(isAdmin); // false
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
+	
 ```javascript
 let user = { name: 'John', years: 30 };
 
@@ -774,10 +774,11 @@ console.log(age); // 30
 console.log(isAdmin); // false  
 console.log();
 ```
+	
 </details>
 
 
-### Exercise 4
+### Exercise [4]
 
 Rewrite the code below to use array destructuring instead of assigning each value to a variable.
 
@@ -796,6 +797,7 @@ console.log(`Person - Age: ${age}, Name: ${firstName} ${lastName}`);
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
+	
 ```javascript
 let person = [12, 'Chris', 'Owen'];
 
@@ -803,10 +805,11 @@ let [age, firstName, lastName] = person;
 console.log(`Person - Age: ${age}, Name: ${firstName} ${lastName}`);  
 console.log();
 ```
+	
 </details>
 
 
-### Exercise 5
+### Exercise [5]
 
 Rewrite the code below to use array destructuring instead of assigning each value to a variable.
 
@@ -827,6 +830,7 @@ console.log(`Name: ${firstName} ${lastName}`);
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
+	
 ```javascript
 let person = ['Chris', 12, 'Owen'];
 
@@ -835,6 +839,7 @@ let [firstName, lastName] = person;
 console.log(`Name: ${firstName} ${lastName}`);  
 console.log();
 ```
+	
 </details>
 
 
@@ -857,6 +862,7 @@ console.log(lastName);
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
+	
 ```javascript
 const [, , lastName] = students;
 
@@ -864,10 +870,11 @@ console.log(lastName);
 console.log();  
 }
 ```
+	
 </details>
 
 
-### Exercise 7
+### Exercise [7]
 
 Using Array Destructuring get all of the names from this Nested Array
 
@@ -886,6 +893,7 @@ const moreStudents = [
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
+	
 ```javascript
 const moreStudents = ['Chris', ['Ahmad', 'Antigoni'], ['Toby', 'Sam']];  
 let [student1, [student2, student3], [student4, student5]] = moreStudents;  
@@ -895,4 +903,5 @@ const [] = moreStudents;
 console.log(student1, student2, student3, student4, student5);  
 console.log();
 ```
+	
 </details>

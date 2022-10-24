@@ -843,7 +843,7 @@ console.log();
 </details>
 
 
-### Exercise 6
+### Exercise [6]
 
 Using Array Destructuring get the last name from the array.
 

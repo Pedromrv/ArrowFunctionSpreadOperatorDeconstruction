@@ -908,7 +908,7 @@ console.log();
 
 ## Spread Operator Exercises
 
-[1] Copying an array with newFruitArray:
+### [1] Copying an array with newFruitArray:
 ```javascript
 let fruits = ['Apple','Orange','Banana'];
 ```
@@ -924,7 +924,7 @@ console.log(newFruitArray);
 </details>
 
 
-[2]Concatenating arrays
+### [2]Concatenating arrays
 ```javascript
 let arr1 = ['A', 'B', 'C'];
 
@@ -943,7 +943,7 @@ console.log(result);  
 </details>
 
 
-[3] Spreading elements together with an individual element (add Cherry)
+### [3] Spreading elements together with an individual element (add Cherry)
 ```javascript
 let fruits = ['Apple','Orange','Banana'];
 ```
@@ -962,7 +962,7 @@ console.log(newFruits);  
 </details>
 
 
-[4] Spreading elements on function calls
+### [4] Spreading elements on function calls
 ```javascript
 let fruits = ['Apple','Orange','Banana'];
 ```
@@ -982,7 +982,7 @@ getFruits(...fruits);
 </details>
 
 
-[5] Spread syntax for object literals
+### [5] Spread syntax for object literals
 ```javascript
 let obj1 = { id: 101, name: 'Jhon Doe' }
 

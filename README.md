@@ -1,4 +1,6 @@
-# Arrow Function, Spread Operator, Deconstruction
+# Arrow Function
+# Spread Operator
+# Deconstruction
 
 ## The Arrow Function (JS only)
 

@@ -651,8 +651,6 @@ oneTwoThreeRotate()
   
 <details><summary>Respuesta - ¡Haz Click!</summary>
 
-  
-
 This is a possible answer:
 
   
@@ -717,7 +715,9 @@ console.log(`One: ${one}, Two: ${two}, Three: ${three}, Four: ${four}, Five: ${f
 ```
 
 <details><summary>Respuesta - ¡Haz Click!</summary>
-```javascript
+This is a possible answer:
+
+```javascript  
 let numbers = [3, 5, 4, 2, 6, 1];
 
 let [three, five, four, two, six, one] = numbers;
@@ -727,5 +727,6 @@ console.log(
 );  
 console.log();
 ```
+	
 </details>
 

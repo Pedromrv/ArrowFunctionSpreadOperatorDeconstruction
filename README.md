@@ -28,9 +28,6 @@ Como puede ver, su sintaxis es
 (param1, paramN) => expression
 ```
 
-
-```
-
 Si sólo existe un parámetro en el lado izquierdo de la flecha, se puede omitir el corchete. Si sólo existe una expresión en el lado derecho de la flecha, también se pueden omitir las llaves. El ejemplo siguiente muestra una función con el () y el {} omitidos.
 
 ```javascript
